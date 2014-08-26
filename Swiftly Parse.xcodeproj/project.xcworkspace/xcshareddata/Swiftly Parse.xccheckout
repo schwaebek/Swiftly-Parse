@@ -10,6 +10,8 @@
 	<string>Swiftly Parse</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>34F800AFD9A6B99E82F1A35421F153F46F05F484</key>
+		<string>https://github.com/schwaebek/Instawhat-.git</string>
 		<key>39F82C86D1ACE7B4313699F2928D1CEC58DCA6A6</key>
 		<string>https://github.com/schwaebek/Swiftly-Parse.git</string>
 	</dict>
@@ -17,6 +19,8 @@
 	<string>Swiftly Parse.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>34F800AFD9A6B99E82F1A35421F153F46F05F484</key>
+		<string>../../../Instawhat%3F</string>
 		<key>39F82C86D1ACE7B4313699F2928D1CEC58DCA6A6</key>
 		<string>../..</string>
 	</dict>
@@ -28,6 +32,14 @@
 	<string>39F82C86D1ACE7B4313699F2928D1CEC58DCA6A6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>34F800AFD9A6B99E82F1A35421F153F46F05F484</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Instawhat%3F</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

@@ -3,3 +3,6 @@
 //
 
 #import <Parse/Parse.h>
+#import "IWAViewController.h"
+#import "IWAFilterViewController.h"
+#import "IWAChosenFilterViewController.h"

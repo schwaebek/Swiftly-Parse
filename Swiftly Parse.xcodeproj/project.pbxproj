@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2791BC5319ACBE590019AFFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2791BC5219ACBE590019AFFD /* AppDelegate.swift */; };
-		2791BC5519ACBE590019AFFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2791BC5419ACBE590019AFFD /* ViewController.swift */; };
 		2791BC5819ACBE590019AFFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2791BC5619ACBE590019AFFD /* Main.storyboard */; };
 		2791BC5A19ACBE590019AFFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2791BC5919ACBE590019AFFD /* Images.xcassets */; };
 		2791BC6619ACBE590019AFFD /* Swiftly_ParseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2791BC6519ACBE590019AFFD /* Swiftly_ParseTests.swift */; };
@@ -25,6 +24,11 @@
 		2791BC8819ACC1780019AFFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2791BC8719ACC1780019AFFD /* CoreGraphics.framework */; };
 		2791BC8A19ACC1810019AFFD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2791BC8919ACC1810019AFFD /* CFNetwork.framework */; };
 		2791BC8C19ACC1990019AFFD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2791BC8B19ACC1990019AFFD /* AudioToolbox.framework */; };
+		2791BC9019ACCA4E0019AFFD /* FacesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2791BC8F19ACCA4E0019AFFD /* FacesTVC.swift */; };
+		2791BC9219ACCB1C0019AFFD /* FaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2791BC9119ACCB1C0019AFFD /* FaceCell.swift */; };
+		2791BC9D19ACD2160019AFFD /* IWAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2791BC9819ACD2160019AFFD /* IWAViewController.m */; };
+		2791BC9E19ACD2160019AFFD /* IWAFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2791BC9A19ACD2160019AFFD /* IWAFilterViewController.m */; };
+		2791BCA519AD210D0019AFFD /* IWAChosenFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2791BCA419AD210D0019AFFD /* IWAChosenFilterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +45,6 @@
 		2791BC4D19ACBE590019AFFD /* Swiftly Parse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swiftly Parse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2791BC5119ACBE590019AFFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2791BC5219ACBE590019AFFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2791BC5419ACBE590019AFFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2791BC5719ACBE590019AFFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2791BC5919ACBE590019AFFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2791BC5F19ACBE590019AFFD /* Swiftly ParseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swiftly ParseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +64,14 @@
 		2791BC8719ACC1780019AFFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2791BC8919ACC1810019AFFD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		2791BC8B19ACC1990019AFFD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2791BC8F19ACCA4E0019AFFD /* FacesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacesTVC.swift; sourceTree = "<group>"; };
+		2791BC9119ACCB1C0019AFFD /* FaceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceCell.swift; sourceTree = "<group>"; };
+		2791BC9719ACD2160019AFFD /* IWAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWAViewController.h; path = "../../Instawhat?/Instawhat?/IWAViewController.h"; sourceTree = "<group>"; };
+		2791BC9819ACD2160019AFFD /* IWAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWAViewController.m; path = "../../Instawhat?/Instawhat?/IWAViewController.m"; sourceTree = "<group>"; };
+		2791BC9919ACD2160019AFFD /* IWAFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWAFilterViewController.h; path = "../../Instawhat?/Instawhat?/IWAFilterViewController.h"; sourceTree = "<group>"; };
+		2791BC9A19ACD2160019AFFD /* IWAFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWAFilterViewController.m; path = "../../Instawhat?/Instawhat?/IWAFilterViewController.m"; sourceTree = "<group>"; };
+		2791BCA319AD210D0019AFFD /* IWAChosenFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWAChosenFilterViewController.h; path = "../../Instawhat?/Instawhat?/IWAChosenFilterViewController.h"; sourceTree = "<group>"; };
+		2791BCA419AD210D0019AFFD /* IWAChosenFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWAChosenFilterViewController.m; path = "../../Instawhat?/Instawhat?/IWAChosenFilterViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +108,9 @@
 		2791BC4419ACBE590019AFFD = {
 			isa = PBXGroup;
 			children = (
-				2791BC7219ACC0AE0019AFFD /* Frameworks */,
+				2791BC9319ACD14F0019AFFD /* ObjC */,
 				2791BC4F19ACBE590019AFFD /* Swiftly Parse */,
+				2791BC7219ACC0AE0019AFFD /* Frameworks */,
 				2791BC6219ACBE590019AFFD /* Swiftly ParseTests */,
 				2791BC4E19ACBE590019AFFD /* Products */,
 			);
@@ -116,8 +128,9 @@
 		2791BC4F19ACBE590019AFFD /* Swiftly Parse */ = {
 			isa = PBXGroup;
 			children = (
+				2791BC8F19ACCA4E0019AFFD /* FacesTVC.swift */,
+				2791BC9119ACCB1C0019AFFD /* FaceCell.swift */,
 				2791BC5219ACBE590019AFFD /* AppDelegate.swift */,
-				2791BC5419ACBE590019AFFD /* ViewController.swift */,
 				2791BC5619ACBE590019AFFD /* Main.storyboard */,
 				2791BC5919ACBE590019AFFD /* Images.xcassets */,
 				2791BC5019ACBE590019AFFD /* Supporting Files */,
@@ -169,6 +182,20 @@
 				2791BC7519ACC1100019AFFD /* ParseFacebookUtils.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2791BC9319ACD14F0019AFFD /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				2791BC9719ACD2160019AFFD /* IWAViewController.h */,
+				2791BC9819ACD2160019AFFD /* IWAViewController.m */,
+				2791BC9919ACD2160019AFFD /* IWAFilterViewController.h */,
+				2791BC9A19ACD2160019AFFD /* IWAFilterViewController.m */,
+				2791BCA319AD210D0019AFFD /* IWAChosenFilterViewController.h */,
+				2791BCA419AD210D0019AFFD /* IWAChosenFilterViewController.m */,
+			);
+			name = ObjC;
+			path = "Swiftly Parse";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2791BC5519ACBE590019AFFD /* ViewController.swift in Sources */,
+				2791BC9219ACCB1C0019AFFD /* FaceCell.swift in Sources */,
+				2791BC9019ACCA4E0019AFFD /* FacesTVC.swift in Sources */,
+				2791BC9E19ACD2160019AFFD /* IWAFilterViewController.m in Sources */,
+				2791BC9D19ACD2160019AFFD /* IWAViewController.m in Sources */,
+				2791BCA519AD210D0019AFFD /* IWAChosenFilterViewController.m in Sources */,
 				2791BC5319ACBE590019AFFD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
