@@ -12,6 +12,19 @@
 		2791BC5819ACBE590019AFFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2791BC5619ACBE590019AFFD /* Main.storyboard */; };
 		2791BC5A19ACBE590019AFFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2791BC5919ACBE590019AFFD /* Images.xcassets */; };
 		2791BC6619ACBE590019AFFD /* Swiftly_ParseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2791BC6519ACBE590019AFFD /* Swiftly_ParseTests.swift */; };
+		2791BC7619ACC1100019AFFD /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2791BC7319ACC1100019AFFD /* Bolts.framework */; };
+		2791BC7719ACC1100019AFFD /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2791BC7419ACC1100019AFFD /* Parse.framework */; };
+		2791BC7819ACC1100019AFFD /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2791BC7519ACC1100019AFFD /* ParseFacebookUtils.framework */; };
+		2791BC7A19ACC1290019AFFD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2791BC7919ACC1290019AFFD /* SystemConfiguration.framework */; };
+		2791BC7C19ACC1330019AFFD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2791BC7B19ACC1330019AFFD /* StoreKit.framework */; };
+		2791BC7E19ACC13D0019AFFD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2791BC7D19ACC13D0019AFFD /* Security.framework */; };
+		2791BC8019ACC1450019AFFD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2791BC7F19ACC1450019AFFD /* QuartzCore.framework */; };
+		2791BC8219ACC14F0019AFFD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2791BC8119ACC14F0019AFFD /* MobileCoreServices.framework */; };
+		2791BC8419ACC1620019AFFD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2791BC8319ACC1620019AFFD /* libz.dylib */; };
+		2791BC8619ACC16E0019AFFD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2791BC8519ACC16E0019AFFD /* CoreLocation.framework */; };
+		2791BC8819ACC1780019AFFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2791BC8719ACC1780019AFFD /* CoreGraphics.framework */; };
+		2791BC8A19ACC1810019AFFD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2791BC8919ACC1810019AFFD /* CFNetwork.framework */; };
+		2791BC8C19ACC1990019AFFD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2791BC8B19ACC1990019AFFD /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,20 @@
 		2791BC5F19ACBE590019AFFD /* Swiftly ParseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swiftly ParseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2791BC6419ACBE590019AFFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2791BC6519ACBE590019AFFD /* Swiftly_ParseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftly_ParseTests.swift; sourceTree = "<group>"; };
+		2791BC6F19ACBF220019AFFD /* Swiftly Parse-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swiftly Parse-Bridging-Header.h"; sourceTree = "<group>"; };
+		2791BC7319ACC1100019AFFD /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		2791BC7419ACC1100019AFFD /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		2791BC7519ACC1100019AFFD /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		2791BC7919ACC1290019AFFD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2791BC7B19ACC1330019AFFD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		2791BC7D19ACC13D0019AFFD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2791BC7F19ACC1450019AFFD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2791BC8119ACC14F0019AFFD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2791BC8319ACC1620019AFFD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		2791BC8519ACC16E0019AFFD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2791BC8719ACC1780019AFFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2791BC8919ACC1810019AFFD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2791BC8B19ACC1990019AFFD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +68,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2791BC8C19ACC1990019AFFD /* AudioToolbox.framework in Frameworks */,
+				2791BC8A19ACC1810019AFFD /* CFNetwork.framework in Frameworks */,
+				2791BC8819ACC1780019AFFD /* CoreGraphics.framework in Frameworks */,
+				2791BC8619ACC16E0019AFFD /* CoreLocation.framework in Frameworks */,
+				2791BC8419ACC1620019AFFD /* libz.dylib in Frameworks */,
+				2791BC8219ACC14F0019AFFD /* MobileCoreServices.framework in Frameworks */,
+				2791BC8019ACC1450019AFFD /* QuartzCore.framework in Frameworks */,
+				2791BC7E19ACC13D0019AFFD /* Security.framework in Frameworks */,
+				2791BC7C19ACC1330019AFFD /* StoreKit.framework in Frameworks */,
+				2791BC7A19ACC1290019AFFD /* SystemConfiguration.framework in Frameworks */,
+				2791BC7719ACC1100019AFFD /* Parse.framework in Frameworks */,
+				2791BC7619ACC1100019AFFD /* Bolts.framework in Frameworks */,
+				2791BC7819ACC1100019AFFD /* ParseFacebookUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +97,7 @@
 		2791BC4419ACBE590019AFFD = {
 			isa = PBXGroup;
 			children = (
+				2791BC7219ACC0AE0019AFFD /* Frameworks */,
 				2791BC4F19ACBE590019AFFD /* Swiftly Parse */,
 				2791BC6219ACBE590019AFFD /* Swiftly ParseTests */,
 				2791BC4E19ACBE590019AFFD /* Products */,
@@ -80,6 +121,7 @@
 				2791BC5619ACBE590019AFFD /* Main.storyboard */,
 				2791BC5919ACBE590019AFFD /* Images.xcassets */,
 				2791BC5019ACBE590019AFFD /* Supporting Files */,
+				2791BC6F19ACBF220019AFFD /* Swiftly Parse-Bridging-Header.h */,
 			);
 			path = "Swiftly Parse";
 			sourceTree = "<group>";
@@ -107,6 +149,26 @@
 				2791BC6419ACBE590019AFFD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2791BC7219ACC0AE0019AFFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2791BC8B19ACC1990019AFFD /* AudioToolbox.framework */,
+				2791BC8919ACC1810019AFFD /* CFNetwork.framework */,
+				2791BC8719ACC1780019AFFD /* CoreGraphics.framework */,
+				2791BC8519ACC16E0019AFFD /* CoreLocation.framework */,
+				2791BC8319ACC1620019AFFD /* libz.dylib */,
+				2791BC8119ACC14F0019AFFD /* MobileCoreServices.framework */,
+				2791BC7F19ACC1450019AFFD /* QuartzCore.framework */,
+				2791BC7D19ACC13D0019AFFD /* Security.framework */,
+				2791BC7B19ACC1330019AFFD /* StoreKit.framework */,
+				2791BC7919ACC1290019AFFD /* SystemConfiguration.framework */,
+				2791BC7319ACC1100019AFFD /* Bolts.framework */,
+				2791BC7419ACC1100019AFFD /* Parse.framework */,
+				2791BC7519ACC1100019AFFD /* ParseFacebookUtils.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,9 +387,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Swiftly Parse/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swiftly Parse/Swiftly Parse-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -336,9 +405,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Swiftly Parse/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swiftly Parse/Swiftly Parse-Bridging-Header.h";
 			};
 			name = Release;
 		};
